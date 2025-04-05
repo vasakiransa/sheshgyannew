@@ -1,0 +1,14 @@
+{
+  "message": "Failed to fetch attendance stats",
+  "2025-03-26": {
+    "stu1@gmail.com": "Present",
+    "stu2@gmail.com": "Present",
+    "vasanthkiransambara123@gmail.com": "Present",
+    "ascripter70@gmail.com": "Absent",
+    "stu3@gmail.com": "Absent",
+    "jane.doe@example.com": "Present",
+    "john@example.com": "Present",
+    "stu4@gmail.com": "Present",
+    "stu5@gmail.com": "Absent"
+  }
+}

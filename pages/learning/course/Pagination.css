@@ -1,0 +1,67 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #E0F7FF, #C2E9FB);
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    gap: 5px;
+}
+
+.pagination-btn {
+    border-radius: 50%;
+    padding: 10px 14px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 3px 5px rgba(0, 123, 255, 0.3);
+}
+
+.pagination-btn:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Default Page Number Styling */
+.pagination-number {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    background: transparent;
+    color: #007bff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Diamond Shape for Selected Page (except last) */
+.pagination-number.active-diamond {
+    transform: rotate(45deg);
+    width: 42px;
+    height: 42px;
+    background: white;
+    border: 2px solid #007bff;
+}
+
+.pagination-number.active-diamond span {
+    transform: rotate(-45deg);
+}
+
+/* Circular Highlight for Last Page */
+.pagination-number.active-last {
+    background: #007bff;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}

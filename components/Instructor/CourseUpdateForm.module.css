@@ -1,0 +1,42 @@
+/* CourseUpdateForm.module.css */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .formCard {
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  .quizCard {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .optionCard {
+    margin-top: 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 15px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 1.5em;
+    }
+  }
+  

@@ -1,0 +1,98 @@
+/* styles/CoursePage.css */
+
+.course-page-container {
+    padding: 20px;
+    max-width: 960px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .course-overview-page {
+    text-align: center;
+  }
+  
+  .course-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .video-page {
+    /* Add styles for video player container */
+  }
+  
+  .asset-page {
+    /* Add styles for asset display */
+  }
+  
+  button {
+    background-color: #007bff; /* Example blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+}
+/* styles.css */
+.course-thumbnail img {
+    border-radius: 8px;
+}
+
+.asset-display img {
+    border-radius: 8px;
+}
+
+.button-navigation button {
+    margin: 5px;
+}
+
+.button-navigation button:disabled {
+    background-color: #ccc;
+}
+
+.video-area {
+    padding: 20px;
+}
+
+.video-content,
+.video-sidebar,
+.course-video-list,
+.asset-display,
+.button-navigation {
+    margin-bottom: 20px;
+}
+
+.title.mb-3 {
+    font-size: 24px;
+}
+
+/* Add transition styles */
+.fade-enter,
+.fade-exit-active {
+   opacity: 0;
+}
+
+.fade-enter-active,
+.fade-exit-active {
+   opacity: 1;
+   transition: opacity 300ms ease-in-out;
+}

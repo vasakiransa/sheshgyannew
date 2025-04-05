@@ -1,0 +1,23 @@
+{
+  "quiz": {
+    "question": "who iis prime",
+    "options": [
+      {
+        "value": "nd",
+        "type": "text"
+      },
+      {
+        "value": "te",
+        "type": "text"
+      },
+      {
+        "value": "plo",
+        "type": "text"
+      },
+      {
+        "value": "turn",
+        "type": "text"
+      }
+    ]
+  }
+}

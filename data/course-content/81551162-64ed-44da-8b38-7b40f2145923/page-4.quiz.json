@@ -1,0 +1,27 @@
+{
+  "quiz": {
+    "question": "hiuhbui",
+    "options": [
+      {
+        "value": "/uploads/quizimages/81551162-64ed-44da-8b38-7b40f2145923/IMG_20250106_121937 (2).jpg",
+        "type": "image",
+        "isCorrect": false
+      },
+      {
+        "value": "/uploads/quizimages/81551162-64ed-44da-8b38-7b40f2145923/IMG_20250106_121937 (2).jpg",
+        "type": "image",
+        "isCorrect": true
+      },
+      {
+        "value": "uguihui",
+        "type": "text",
+        "isCorrect": false
+      },
+      {
+        "value": "hioioj",
+        "type": "text",
+        "isCorrect": false
+      }
+    ]
+  }
+}
